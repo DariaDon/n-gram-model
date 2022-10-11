@@ -19,7 +19,7 @@ for pre, current, next in zip(document, document[1:], document[2:]):
 with open('transitions.pkl', 'wb') as file:
     pickle.dump(transitions, file)
 
-
+print(type(transitions))
 # In[ ]:
 
 
