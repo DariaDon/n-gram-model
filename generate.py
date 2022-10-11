@@ -24,5 +24,5 @@ def generate_using():
         result.append(current)
     return " ".join(result)
 
-generate_using()
-
+text = generate_using()
+print(type(text), text)
